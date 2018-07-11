@@ -14,7 +14,7 @@ react-native link react-native-svg
 ```
 ###### Install Content Loader ######
 ```js
-npm install react-native-content-loader
+npm install react-native-content-loading
 ```
 
 **IMPORTANT: Remove “libRNSVG-tvOS.a” in xcode.**

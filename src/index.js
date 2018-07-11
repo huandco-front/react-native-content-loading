@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types'
-import {View, StyleSheet, Animated} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 import Svg, {Circle,
     Ellipse,
@@ -139,17 +138,6 @@ export default class ContentLoader extends Component {
             </View>
         );
     }
-}
-ContentLoader.propTypes = {
-    primaryColor: PropTypes.string,
-    secondaryColor: PropTypes.string,
-    duration: PropTypes.number,
-    width: PropTypes.number,
-    height: PropTypes.number,
-    x1: PropTypes.string,
-    y1: PropTypes.string,
-    x2: PropTypes.string,
-    y2: PropTypes.string,
 }
 ContentLoader.defaultProps = {
     primaryColor: '#eeeeee',

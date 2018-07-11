@@ -1,0 +1,34 @@
+{
+  "name": "react-native-content-loading",
+  "version": "1.0.0",
+  "description": "Animated linear gradient for React Native Svg (without Expo)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaNtrack/react-native-content-loading.git"
+  },
+  "author": "Nhan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaNtrack/react-native-content-loading/issues"
+  },
+  "homepage": "https://github.com/NaNtrack/react-native-content-loading",
+  "keywords": [
+    "react-native-svg",
+    "react",
+    "svg",
+    "animated",
+    "animation",
+    "linear",
+    "gradient",
+    "loading"
+  ],
+  "peerDependencies": {
+    "expo": "16.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz",
+    "prop-types": "^15.5.10"
+  },
+  "dependencies": {
+    "d3-interpolate": "^1.1.5"
+  }
+}

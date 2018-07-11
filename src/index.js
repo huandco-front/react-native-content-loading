@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet} from 'react-native';
-
+import {View, StyleSheet, Animated} from 'react-native';
 import Svg, {Circle,
     Ellipse,
     G,
